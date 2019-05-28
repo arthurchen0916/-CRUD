@@ -1,5 +1,10 @@
 ﻿using System;
 using System.Web.UI.WebControls;
+using System.Web;
+using System.Web.UI;
+using System.Linq;
+using System.Collections.Generic;
+
 
 namespace WebApplication4
 {
@@ -7,6 +12,13 @@ namespace WebApplication4
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["Account"] == null)
+                Response.Redirect("Login.aspx");
+        }
+
+        protected void lkbtnDashboard2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Dashboard.aspx");
         }
 
         protected void lbInsert_Click(Object sender, EventArgs e)

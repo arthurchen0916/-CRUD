@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dasboard.aspx.cs" Inherits="WebApplication5.Dasboard" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="WebApplication5.Dasboard" %>
 
 <!DOCTYPE html>
 
@@ -16,7 +16,7 @@
             <asp:LinkButton ID="lkbtnMember" runat="server" OnClick="lkbtnMember_Click">查看使用者帳號密碼表</asp:LinkButton>
             <br />
             <br />
-            <asp:LinkButton ID="lkbtnItem" runat="server">查看寶物資訊表</asp:LinkButton>
+            <asp:LinkButton ID="lkbtnItem" runat="server" OnClick="lkbtnItem_Click">查看寶物資訊表</asp:LinkButton>
             <br />
             <br />
             <asp:LinkButton ID="lkbtnMonster" runat="server" OnClick="lkbtnMonster_Click">查看怪物資訊表</asp:LinkButton>

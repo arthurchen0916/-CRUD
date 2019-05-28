@@ -11,7 +11,8 @@ namespace WebApplication5
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["Account"] == null)
+                Response.Redirect("Login.aspx");
         }
 
         protected void lbInsert_Click(object sender , EventArgs e)
@@ -35,6 +36,11 @@ namespace WebApplication5
         protected void SqlDataSource1_Selecting1(object sender, SqlDataSourceSelectingEventArgs e)
         {
 
+        }
+
+        protected void lkbtnDashboard_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Dashboard.aspx");
         }
     }
 }

@@ -10,7 +10,7 @@
 namespace WebApplication5 {
     
     
-    public partial class WebForm1 {
+    public partial class WebForm3 {
         
         /// <summary>
         /// form1 控制項。
@@ -31,13 +31,13 @@ namespace WebApplication5 {
         protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// lkbtnDashboard 控制項。
+        /// lkbtnDashboard3 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lkbtnDashboard;
+        protected global::System.Web.UI.WebControls.LinkButton lkbtnDashboard3;
         
         /// <summary>
         /// ValidationSummary1 控制項。
@@ -47,15 +47,6 @@ namespace WebApplication5 {
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
-        
-        /// <summary>
-        /// ValidationSummary2 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary2;
         
         /// <summary>
         /// SqlDataSource1 控制項。

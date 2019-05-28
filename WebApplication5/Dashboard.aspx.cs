@@ -31,5 +31,10 @@ namespace WebApplication5
         {
             Response.Redirect("Monster.aspx");
         }
+
+        protected void lkbtnItem_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Item.aspx");
+        }
     }
 }

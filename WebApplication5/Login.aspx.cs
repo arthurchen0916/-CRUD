@@ -30,7 +30,7 @@ namespace WebApplication5
                 if (count == 1)
                 {
                     Session["Account"] = TxtAccount.Text.Trim();
-                    Response.Redirect("Dasboard.aspx");
+                    Response.Redirect("Dashboard.aspx");
                 }
                 else { lblErrorMessage.Visible = true; }
                

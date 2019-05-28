@@ -65,6 +65,7 @@
                 <SortedDescendingCellStyle BackColor="#F1E5CE" />
                 <SortedDescendingHeaderStyle BackColor="#93451F" />
             </asp:GridView>
+            <asp:LinkButton ID="lkbtnDashboard" runat="server" OnClick="lkbtnDashboard_Click">返回至會員功能頁面</asp:LinkButton>
             <asp:ValidationSummary  ValidationGroup="INSERT" ID="ValidationSummary1" ForeColor="Red" runat="server" />
             <asp:ValidationSummary  ID="ValidationSummary2" ForeColor="Red" runat="server" />
         </div>

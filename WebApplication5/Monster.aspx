@@ -97,6 +97,7 @@
                 <SortedDescendingCellStyle BackColor="#F1E5CE" />
                 <SortedDescendingHeaderStyle BackColor="#93451F" />
             </asp:GridView>
+            <asp:LinkButton ID="lkbtnDashboard2" runat="server" OnClick="lkbtnDashboard2_Click">返回至會員功能頁面</asp:LinkButton>
             <asp:ValidationSummary ID="ValidationSummary1" ForeColor="Red" runat="server" ValidationGroup="ins"/>
             <br />
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
